@@ -1,0 +1,53 @@
+# profile default
+my:
+  app:
+    db:
+     driver: Oracle
+     url: JDBC-URL
+---
+# profile qa and prod
+my:
+  app:
+    db:
+     driver: MYSQL
+     url: JDBC-MYSQL
+spring:
+  config:
+    activate:
+       on-profile:
+       - qa
+       - prod  
+---
+# profile uat
+my:
+  app:
+    db:
+     driver:  Postgress-TEST
+     url: JDBC-Postgress-TEST         
+spring:
+  config:
+    activate:
+     on-profile: uat
+---
+# Profile qa
+my:
+  app:
+    db:
+     driver: QA-DRIVER
+     url: JDBC-QA
+spring:
+  config:
+    activate:
+     on-profile: qa
+---
+#Profile prod
+my:
+  app:
+    db:
+     driver: MANGO-DB
+     url: JDBC-MANGO
+spring:
+  config:
+    activate:
+     on-profile: prod          
+               

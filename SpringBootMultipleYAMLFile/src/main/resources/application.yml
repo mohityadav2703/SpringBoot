@@ -1,0 +1,8 @@
+my:
+  app:
+    db:
+     driver: Oracle
+     url: JDBC-URL
+     username: Mohit
+     password: Mohit@123
+     database: testDb

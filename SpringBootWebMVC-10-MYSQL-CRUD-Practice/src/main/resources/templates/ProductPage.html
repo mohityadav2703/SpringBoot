@@ -1,0 +1,17 @@
+<html xmlns:th="https://www.thymeleaf.org/">
+	<head>
+		<title>Product Page</title>
+	</head>
+	<body>
+		<h3>THIS PRODUCT PAGE</h3>
+		<pre>
+			<form th:action="@{/product/save}" method="post">
+				PRODUCT NAME:<input type="text" name="prodName"/>
+				PRODUCT QTY :<input type="text" name="prodQty"/>
+				PRODUCT PRICE:<input type="text" name="prodPrice"/>
+				<input type="submit" value="save"/>
+			</form>
+		</pre>
+		[[${message}]]
+	</body>
+</html>

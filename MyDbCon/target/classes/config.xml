@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dbObj" class="com.xmlconfig.second.MyDbCon">
+		<property name="driver" value="OracleDriver"></property>
+		<property name="url" value="Jdbc-Orcl"></property>
+	</bean>
+	
+	<bean id="jdbcObj" class="com.xmlconfig.second.JdbcOpr">
+		<property name="con" ref="dbObj"></property>
+	</bean>
+
+</beans>

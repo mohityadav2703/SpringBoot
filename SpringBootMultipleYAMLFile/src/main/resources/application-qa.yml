@@ -1,0 +1,9 @@
+my:
+  app:
+    db:
+     driver: MYSQL
+     url: JDBC-MYSQL
+    # username: Nihit
+     #password: Nihit@123
+     database: MYSQLDb
+

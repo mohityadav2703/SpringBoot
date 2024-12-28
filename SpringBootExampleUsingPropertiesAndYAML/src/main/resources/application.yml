@@ -1,0 +1,16 @@
+my:
+  app:
+    pcode: pr101
+    pid: 123
+    pcost: 543.79
+    colors:
+    - Red
+    - Green
+    - Blue
+    models:
+     state1: Bihar
+     state2: Telengana
+     state3: Maharastra
+    vob:
+     vid: 0001
+     vcode: code749

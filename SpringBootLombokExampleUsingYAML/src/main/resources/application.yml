@@ -1,0 +1,35 @@
+my:
+  app:
+    host: ABC
+    port: 1234
+    username: SAM
+    active: true
+    states:
+    - BIHAR
+    - UTTAR PRADESH
+    - JHARKHAND
+    - SIKKIM
+    dist:
+    - BHOJPUR
+    - BHOJPUR
+    - ROHTASH
+    - ROHTASH
+    - PATNA
+    - PATNA
+    company:
+    - INFOSYS
+    - WIPRO
+    - TCS
+    - CAPGEMINI
+    data:
+     C1: RED
+     C2: GREEN
+     C3: YELLOW
+     C4: ORANGE
+     C5: BLACK
+    data1:
+     name:Mohit
+     name1:nihit
+    mob:
+      code: 8673
+      details: SAMPLE   

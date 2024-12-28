@@ -1,0 +1,8 @@
+my:
+  app:
+    db:
+     driver: H2
+     url: JDBC-H2
+     username: Deepak
+  #   password: Deepak@123
+   #  database: H2Db
